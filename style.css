@@ -1,0 +1,60 @@
+/* Style the container and center it */
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Style the form elements */
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+/* Style the buttons */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 100px; /* Adjust as needed to fit the buttons side by side */
+}
+
+/* Style the alerts */
+.alert {
+  margin-top: 15px;
+}
+
+/* Style the "Sign Up" heading */
+h2.text-center {
+  margin-top: 0; /* Remove default margin */
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .container {
+    width: 80%; /* Adjust container width for tablets */
+  }
+}
+
+/* Media query for smartphones */
+@media (max-width: 576px) {
+  .container {
+    width: 90%; /* Adjust container width for smartphones */
+  }
+
+  .form-control {
+    margin-bottom: 10px; /* Reduce margin for form inputs on small screens */
+  }
+
+  .btn {
+    width: 100%; /* Make buttons full width on small screens */
+  }
+}
